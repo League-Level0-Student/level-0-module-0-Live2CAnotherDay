@@ -14,28 +14,37 @@ public class DragonFight {
 		JOptionPane.showMessageDialog(null, "Defeat the dragon to take its treasure!", "Dragon Fighter", 0, dragon);
 
 		// 1. Create some variables to hold health levels
-		
+		 int playerHealth = 100;
 			// playerHealth to store your health - set it equal to 100
-	
+		 int dragonHealth = 100;
 			// dragonHealth to store the dragon's health - set it equal to 100
-
+		 int bow_Arrow = 10;
+		 int flames = 15;
+		 int sword_Slash = 15;
+		 int wing_whirlwind = 10;
 		// 2. Create some variables to hold the attack strengths. These will be given different values later. 
-		
+		 int playerAttack = 0;
 			// playerAttack to store the damage the player's attack will do - set it equal
 			// to 0 for now.
-	
+		 int dragonAttack =0;
 			// dragonAttack to store the damage the dragon's attack will do - set it equal
 			// to 0 for now.
-
 		
 		//  This while statement will cause the game attack code to repeat
 		while (true) {
+			
 
+			String name;
 			// THE PLAYER ATTACKS THE DRAGON
-
+			String choice	= JOptionPane.showInputDialog("Oh, No! A Wild Dragon has appeared! Do You Want To Fight it? [Y or N]"); me);
 				// 3. Ask the player in a pop-up if they want to attack the dragon with a yell
 				// or a kick
-	
+			if (choice.equalsIgnoreCase("Y");{
+				choice = JOptionPane.showInputDialog("Do You Want to slash it with a Sword or Shoot an Arrow at it? [S or A]");
+				if (choice.equalsIgnoreCase("A)); 
+						
+			}
+			
 				// 4. If they typed in "yell":
 	
 					  // -- Find a random number between 0 and 10 and store it in playerAttack. Use
